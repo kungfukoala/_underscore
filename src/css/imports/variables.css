@@ -1,0 +1,25 @@
+:root {
+    --font-family: "mrs-eaves-xl-serif", serif;
+    --font-headline: "ff-meta-headline-web-pro-con", sans-serif;
+    --line-height: 1.5em;
+    --color: rgb(0, 0, 0);
+    --weight-bold: 700;
+    --weight-black: 900;
+    /* colors */
+    --color-gold: rgb(250, 180, 20);
+    --color-blue: rgb(25, 45, 90);
+    --color-black: rgb(0, 0, 0);
+    --color-foam: rgb(248, 240, 200);
+    /* font sizes */
+    --font-xsmall: 0.5em;
+    --font-small: 1em;
+    --font-medium: 2em;
+    --font-large: 4em;
+    --font-xlarge: 7em;
+    /* spacing */
+    --xsmall: 0.25em;
+    --small: 0.5em;
+    --medium: 2em;
+    --large: 4em;
+    --xlarge: 6em;
+}

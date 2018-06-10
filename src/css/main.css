@@ -1,6 +1,7 @@
 /*
   You can use import statements to include partials:
  */
+@import "imports/variables.css";
 @import "imports/reset.css";
 
 
