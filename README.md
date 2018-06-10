@@ -1,6 +1,12 @@
-# Victor Hugo
+# underscore
 
-**A Hugo boilerplate for creating truly epic websites**
+A front-end PostCSS framework for websites.
+
+Additions to Victor Hugo
+- [Lost Grid](https://github.com/peterramsing/lost)
+
+Based on
+# Victor Hugo
 
 This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Gulp](https://gulpjs.com/) + [Webpack](https://webpack.js.org/) as your asset pipeline.
 
@@ -112,6 +118,3 @@ Now Netlify will build and deploy your site whenever you push to git.
 You can also click this button:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo)
-
-
-## Enjoy!! 😸
