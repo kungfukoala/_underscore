@@ -2,8 +2,16 @@
 
 A front-end PostCSS framework for websites.
 
-Additions to Victor Hugo
+Made of
+- [Victor Hugo](https://github.com/peterramsing/lost)
+- [Gulp](https://gulpjs.com/)
+- [Webpack](https://webpack.js.org/)
+- [Babel](https://babeljs.io/)
+- [PostCSS](http://postcss.org/)
 - [Lost Grid](https://github.com/peterramsing/lost)
+- [Sanitize CSS](https://github.com/jonathantneal/sanitize.css)
+
+This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
 
 Based on
 # Victor Hugo

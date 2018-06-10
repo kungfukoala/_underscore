@@ -1,0 +1,12 @@
+name = "21A"
+license = "MIT"
+licenselink = ""
+description = "21A theme based on Hugo Victor"
+homepage = "https://github.com/21stAmendmentBrewery/21A-website"
+tags = []
+features = ["responsive", "multilingual", "i18n"]
+min_version = 0.1
+
+[author]
+  name = "Benjamin Kinzer"
+  homepage = "https://github.com/kungfukoala"
