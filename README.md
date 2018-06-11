@@ -10,6 +10,7 @@ Made of
 - [PostCSS](http://postcss.org/)
 - [Lost Grid](https://github.com/peterramsing/lost)
 - [Sanitize CSS](https://github.com/jonathantneal/sanitize.css)
+- [Gridlover](https://www.npmjs.com/package/postcss-gridlover)
 
 This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
 
