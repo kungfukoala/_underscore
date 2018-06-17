@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main>
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+  </header>
+  <section>
+    {{ .Content }}
+      <!-- <ul>
+        {{ range .Data.Pages }}
+          <li>
+            <h2 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{ partial "post-meta" . }}
+            <div>
+              {{ .Content }}
+            </div>
+          </li>
+        {{ end }}
+      </ul> -->
+  </section>
+</main>
+{{ end }}

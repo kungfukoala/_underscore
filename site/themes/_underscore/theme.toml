@@ -1,0 +1,12 @@
+name = "_underscore"
+license = "MIT"
+licenselink = "https://github.com/kungfukoala/_underscore/LICENSE"
+description = "_underscore - a Hugo boilerplate, theme and front-end framework"
+homepage = "https://github.com/kungfukoala/_underscore"
+tags = []
+features = ["responsive", "seo", "i18n"]
+min_version = 0.1
+
+[author]
+  name = "Benjamin Kinzer"
+  homepage = "https://github.com/kungfukoala"
