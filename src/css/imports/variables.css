@@ -1,31 +1,40 @@
-html, :root {
-    /* Fonts */
-    --font-family: "mrs-eaves-xl-serif", serif;
-    --font-headlines: "ff-meta-headline-web-pro-con", sans-serif;
-    /* Vertical Rythym */
-    --base-font-size: 10px; /* Must be in pixels */
-    --base-line-height: 1.3; /* Must be a decimal number */
-    --base-scale-factor: 1.618; /* Must be a decimal number */
-    --base-units: px; /* px, rem, em */
-    /* colors */
-    --color: rgb(0, 0, 0);
-    --color-gold: rgb(250, 180, 20);
-    --color-blue: rgb(25, 45, 90);
-    --color-black: rgb(0, 0, 0);
-    --color-foam: rgb(248, 240, 200);
-    /* Font Weights */
-    --weight-bold: 700;
-    --weight-black: 900;
-    /* font sizes */
-    --font-xsmall: 0.5em;
-    --font-small: 1em;
-    --font-medium: 2em;
-    --font-large: 4em;
-    --font-xlarge: 7em;
-    /* spacing */
-    --xsmall: 0.25em;
-    --small: 0.5em;
-    --medium: 2em;
-    --large: 4em;
-    --xlarge: 6em;
+:root {
+  /* Base Styles */
+  --base-font-family: "mrs-eaves-xl-serif", serif;
+  --base-font-size: 22px;
+  --base-line-height: 44px;
+  /* Headlines */
+  --font-headlines: "maple-web", sans-serif;
+  --font-size-title: 2;
+  --font-size-h1: 3;
+  --font-size-h2: 2;
+  --font-size-h3: 1.5;
+  --font-size-h4: 1;
+  --font-size-h5: 0.75;
+  --font-size-h6: 0.65;
+  /*  */
+  --font-monospace: "maple-web", sans-serif;
+  --font-secondary: "maple-web", sans-serif;
+  --font-buttons: "maple-web", sans-serif;
+  --font-inputs: "maple-web", sans-serif;
+  /* colors */
+  --color-yellow: rgb(250, 180, 20);
+  --color-black: rgb(25, 45, 90);
+  --color-grey: rgb(0, 0, 0);
+  --color-foam: rgb(248, 240, 200);
+
+  --base-color: rgb(0, 0, 0);
+  --secondary-color: rgb(0, 0, 0);
+  --tertiary-color: rgb(0, 0, 0);
+  /* Font Weights */
+  --weight-bold: 700;
+  --weight-black: 900;
+  /* font sizes */
+
+  /* spacing */
+  --xsmall: 0.25em;
+  --small: 0.5em;
+  --medium: 2em;
+  --large: 4em;
+  --xlarge: 6em;
 }

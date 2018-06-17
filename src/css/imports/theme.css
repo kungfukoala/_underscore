@@ -1,0 +1,22 @@
+.logo {
+  font-size: calc(var(--base-font-size) * 5);
+  color: var(--base-color);
+  margin: 0.42em 0;
+  & :--links {
+    color: var(--base-color);
+  }
+}
+.logo-horizontal {
+  font-family: var(--font-secondary);
+  font-size: calc(var(--base-font-size) * 0.75);
+  color: var(--base-color);
+  margin: 0.42em 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  & :--links {
+    color: var(--base-color);
+  }
+}
+.copyright {
+   font-size: calc(var(--base-font-size) * 0.65);
+}

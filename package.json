@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "lost": "^8.2.1",
-    "postcss-gridlover": "^0.2.1"
+    "postcss-baseline-grid-overlay": "^3.0.1"
   }
 }

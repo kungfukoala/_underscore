@@ -1,56 +1,76 @@
-html, body {
-  font-family: var(--font-family);
+html {
+  /* baseline-grid-overlay: 1rem hsla(280, 50%, 30%, .3) 9999; */
+  font-family: var(--base-font-family);
   font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
 }
-body, .article {
-  font-size: 3sx; /* Must be an integer */
-  line-height: auto;
+p {
+  margin-top: 0px;
+  padding-top: 14px;
+  padding-bottom: 10px;
 }
 /* Headings */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+@custom-selector :--headings h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6;
+:--headings {
   font-family: var(--font-headlines);
+  text-transform: uppercase;
+}
+.title {
+  font-size: calc(var(--base-font-size) * var(--font-size-title));
+  margin-bottom: 10px;
 }
 h1, .h1 {
-  font-size: 5sx; /* Must be an integer */
-  line-height: 3gr;
-  margin: 4gr 0;
+  font-size: calc(var(--base-font-size) * var(--font-size-h1));
+  margin-bottom: 51px;
 }
 h2, .h2 {
-  font-size: 4sx; /* Must be an integer */
-  line-height: 4gr;
-  margin: 2gr 0;
+  font-size: calc(var(--base-font-size) * var(--font-size-h2));
+  margin-bottom: 29px;
 }
 h3, .h3 {
-  font-size: 3sx; /* Must be an integer */
-  line-height: 3gr;
-  margin: 2gr 0;
+  font-size: calc(var(--base-font-size) * var(--font-size-h3));
 }
 h4, .h4 {
-  font-size: 2sx; /* Must be an integer */
-  line-height: 2gr;
-  margin: 2gr 0;
+  font-size: calc(var(--base-font-size) * var(--font-size-h4));
 }
 h5, .h5 {
-  font-size: 1sx; /* Must be an integer */
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: 1gr;
-  margin: 2gr 0;
+  font-size: calc(var(--base-font-size) * var(--font-size-h5));
 }
 h6, .h6 {
-  font-size: 0sx; /* Must be an integer */
-  letter-spacing: 1px;
+  font-size: calc(var(--base-font-size) * var(--font-size-h6));
+  letter-spacing: 2px;
   text-transform: uppercase;
-  line-height: 0gr;
-  margin: 2gr 0;
+}
+/* Links */
+@custom-selector :--links a, a:visited, a:active;
+:--links {
+  color: var(--base-color);
+}
+a:hover {
+
 }
 /* Others */
+nav ul {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: var(--base-line-height);
+}
+ul {
+
+}
 p, ul, ol, pre, table, blockquote {
-  margin: 4gr 0;
+
 }
 a, b, i, strong, em, small, code {
-  line-height: 0;
+
 }
-small {
-  font-size: 1sx;
+time {
+  font-family: var(--font-secondary);
+  font-size: calc(var(--base-font-size) * 0.65);
+  margin-top: 0px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+sup, sub, small {
+  font-size: calc(var(--base-font-size) * 0.65);
 }

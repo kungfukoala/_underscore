@@ -1,13 +1,15 @@
 {{ define "main" }}
+
 <main>
   <article>
     <header>
-      <h1>{{ .Params.title }}</h1>
-      <span>{{ .Date.Format "2006-01-02" }}</span>
+      <h1 class="title">{{ .Params.title }}</h1>
+      {{ partial "post-meta" . }}
     </header>
     <main>
       {{ .Content }}
     </main>
   </article>
 </main>
+
 {{ end }}

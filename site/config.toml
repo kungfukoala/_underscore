@@ -5,7 +5,7 @@ title = "_underscore"
 theme = "_underscore"
 googleAnalytics = "UA-XXXXX-Y"
 
-enableRobotsTXT = "true"
+enableRobotsTXT = "false"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:

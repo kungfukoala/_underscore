@@ -1,10 +1,10 @@
-name = "21A"
+name = "_underscore"
 license = "MIT"
-licenselink = ""
-description = "21A theme based on Hugo Victor"
-homepage = "https://github.com/21stAmendmentBrewery/21A-website"
+licenselink = "https://github.com/kungfukoala/_underscore/LICENSE"
+description = "_underscore - a Hugo boilerplate, theme and front-end framework"
+homepage = "https://github.com/kungfukoala/_underscore"
 tags = []
-features = ["responsive", "multilingual", "i18n"]
+features = ["responsive", "seo", "i18n"]
 min_version = 0.1
 
 [author]
